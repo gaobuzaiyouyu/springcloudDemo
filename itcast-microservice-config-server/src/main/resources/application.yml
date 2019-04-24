@@ -1,0 +1,13 @@
+server:
+  port: 6688#服务端口
+
+spring:
+  application:
+    name: itcasst-microservice-config-server #指定服务名
+cloud:
+  config:
+    server:
+      git:#配置git仓库地址
+      uri: http://172.16.55.138:10080/zhangzhijun/itcast-config-server.git
+      #username: zhangzhijun
+      #password: 123456
